@@ -1,0 +1,41 @@
+/**index.wxss**/
+
+.usermotto {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+.board{
+  position: relative;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 750rpx;
+  height: 830rpx;
+}
+.bg{
+  width: 750rpx;
+  height: 830rpx;
+}
+.space{
+  position: absolute;
+  top: 53rpx;
+  left: 53rpx;
+  margin: -40rpx;
+  width: 720rpx;
+  height: 800rpx;
+}
+.cs{
+  float: left;
+  line-height: 80rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.space .qizi image:hover{
+  /* box-shadow:0 0 25rpx rgba(0, 0, 0, 0.35);
+  border: 3px double rgba(0, 0, 0, 0.15); */
+  
+  transform: scale(1.1,1.1);
+  background: rgba(102, 51, 153, 0.432);
+}

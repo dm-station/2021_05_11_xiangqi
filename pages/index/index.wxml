@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+  <view class="board">
+    <image class="bg" src="../../static/bg.png"  />
+    <view class="space">
+      <!-- <image class="cs" src="../../static/jb.png"/> -->
+      <view class="qizi" wx:for="{{maps}}" wx:for-index="jdx" wx:key="index">
+        <!-- <view class="cs" wx:for="{{item}}" wx:for-index="idx">
+          {{jdx}}:{{idx}}
+        </view> -->
+        <image class="cs" bindtap="tapQiZi" wx:for="{{item}}" wx:for-index="idx" data-j="{{jdx}}" data-i="{{idx}}"  wx:key="index" src="../../static/{{mapping[item][1]}}.png"/>
+      </view>
+        
+        
+    </view>
+  </view>
+  
+    
+</view>
