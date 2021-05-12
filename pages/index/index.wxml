@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-05-11 11:41:18
+ * @LastEditTime: 2021-05-12 16:49:14
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /2021_05_11_xiangqi/pages/index/index.wxml
+-->
 <!--index.wxml-->
 <view class="container">
   <view class="usermotto">
@@ -12,7 +20,7 @@
         <!-- <view class="cs" wx:for="{{item}}" wx:for-index="idx">
           {{jdx}}:{{idx}}
         </view> -->
-        <image class="cs" bindtap="tapQiZi" wx:for="{{item}}" wx:for-index="idx" data-j="{{jdx}}" data-i="{{idx}}"  wx:key="index" src="../../static/{{mapping[item][1]}}.png"/>
+        <image class="cs" bindtap="tapQiZi" wx:for="{{item}}" wx:for-index="idx" data-j="{{jdx}}" data-i="{{idx}}"  wx:key="index" src="../../static/{{mapDesc[item][1]}}.png"/>
       </view>
         
         

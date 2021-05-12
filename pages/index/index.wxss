@@ -12,6 +12,7 @@
   text-align: center;
   width: 750rpx;
   height: 830rpx;
+  top: 60rpx;
 }
 .bg{
   width: 750rpx;
@@ -36,6 +37,6 @@
   /* box-shadow:0 0 25rpx rgba(0, 0, 0, 0.35);
   border: 3px double rgba(0, 0, 0, 0.15); */
   
-  transform: scale(1.1,1.1);
-  background: rgba(102, 51, 153, 0.432);
+  /* transform: scale(1.1,1.1); */
+  /* background: rgba(102, 51, 153, 0.432); */
 }
