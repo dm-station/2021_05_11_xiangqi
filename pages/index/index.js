@@ -108,7 +108,7 @@ Page({
   onChoseS(j, i) {
     let moveList = this.data.moveList
     let nowChose = this.data.nowChose
-    console.log('空白格子:', 'nowChose', nowChose, nowChose, 'moveList:', moveList, 'pos:' + j + '-' + i)
+    console.log('空白格子:', 'nowChose', nowChose, 'moveList:', moveList, 'pos:' + j + '-' + i)
     if (nowChose.length > 0) {
       for (let q = 0; q < moveList.length; q++) {
         if (moveList[q][0] == j && moveList[q][1] == i) {
