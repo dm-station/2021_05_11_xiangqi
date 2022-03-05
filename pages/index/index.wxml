@@ -1,0 +1,31 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-05-11 11:41:18
+ * @LastEditTime: 2021-05-12 16:49:14
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /2021_05_11_xiangqi/pages/index/index.wxml
+-->
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+  <view class="board">
+    <image class="bg" src="../../static/bg.png"  />
+    <view class="space">
+      <!-- <image class="cs" src="../../static/jb.png"/> -->
+      <view class="qizi" wx:for="{{maps}}" wx:for-index="jdx" wx:key="index">
+        <!-- <view class="cs" wx:for="{{item}}" wx:for-index="idx">
+          {{jdx}}:{{idx}}
+        </view> -->
+        <image class="cs" bindtap="tapQiZi" wx:for="{{item}}" wx:for-index="idx" data-j="{{jdx}}" data-i="{{idx}}"  wx:key="index" src="../../static/{{mapDesc[item][1]}}.png"/>
+      </view>
+        
+        
+    </view>
+  </view>
+  
+    
+</view>
